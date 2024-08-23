@@ -1,0 +1,11 @@
+@article{feng2018estimation,
+  title={Estimation of lead vehicle kinematics using camera-based data for driver distraction detection},
+  author={Feng, Fred and Bao, Shan and Jin, Judy and Sun, Wenbo and Saigusa, Shigenobu and Tahmasbi-Sarvestani, Amin and Dsa, Jovin},
+  journal={International Journal of Automotive Engineering},
+  volume={9},
+  number={3},
+  pages={158--164},
+  year={2018},
+  publisher={Society of Automotive Engineers of Japan, INC},
+  doi={10.20485/jsaeijae.9.3_158},
+}

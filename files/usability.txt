@@ -1,0 +1,10 @@
+@article{feng2017usability,
+  title={A computer-aided usability testing tool for in-vehicle infotainment systems},
+  author={Feng, Fred and Liu, Yili and Chen, Yifan},
+  journal={Computers \& Industrial Engineering},
+  volume={109},
+  pages={313--324},
+  year={2017},
+  publisher={Elsevier},
+  doi={10.1016/j.cie.2017.05.019},
+}

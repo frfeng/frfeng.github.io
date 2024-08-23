@@ -1,0 +1,10 @@
+@article{feng2017jerk,
+  title={Can vehicle longitudinal jerk be used to identify aggressive drivers? An examination using naturalistic driving data},
+  author={Feng, Fred and Bao, Shan and Sayer, James R and Flannagan, Carol and Manser, Michael and Wunderlich, Robert},
+  journal={Accident Analysis \& Prevention},
+  volume={104},
+  pages={125--136},
+  year={2017},
+  publisher={Elsevier},
+  doi={10.1016/j.aap.2017.04.012},
+}

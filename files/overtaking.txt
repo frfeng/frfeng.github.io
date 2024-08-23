@@ -1,0 +1,10 @@
+@article{feng2018overtaking,
+  title={Drivers overtaking bicyclists-An examination using naturalistic driving data},
+  author={Feng, Fred and Bao, Shan and Hampshire, Robert C and Delp, Michael},
+  journal={Accident Analysis \& Prevention},
+  volume={115},
+  pages={98--109},
+  year={2018},
+  publisher={Elsevier}, 
+  doi={10.1016/j.aap.2018.03.010},
+}

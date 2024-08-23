@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14pt;
+	font-weight: 400;
+	line-height: 160%;
+	text-align: left;
+	margin: 0;
+}
+.container {
+	width: 900px;
+	margin: 0px auto;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+header {
+	padding-left: 10px;
+	display: flex;
+}
+main {
+	padding: 25px 10px 0px;
+	clear: both;
+}
+footer {
+	font-size: 11pt;
+	width: 800px;
+	margin: 0px auto;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+}
+footer p {
+	padding-left: 0px;
+	line-height: 100%;
+}
+
+#site-footer {
+	background: #F5F5F5;
+}
+
+#sticky_header {
+	height: 42px;
+	width: 100%;
+	position: fixed;
+	background-color: #00274C;    /* Michigan Blue */
+	overflow: hidden;
+}
+#school_logo {
+	height: 100%;
+	float: left;
+	padding-left: 10px;
+}
+#school_logo img {
+	height: 100%;
+	position: relative;    /* vertical center the icon */
+	top: 50%;
+	transform: translateY(-50%);
+}
+#social {
+	float: right;
+	height: 100%;
+	padding-right: 20px;
+}
+#social svg {
+	height: 24px;
+	padding: 9px 5px;
+	margin: 0px 6px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	fill: white;
+}
+#social svg:hover {
+	transform: scale(1.2);    /* enlarge the icon */
+	fill: #FFCB05;    /* Michigan Maize */
+}
+#social svg {
+    transition: .5s all; 
+    transform-origin: 50% 290%;
+}
+h2 {
+	/* font-family: 'Open Sans', sans-serif; */
+	line-height: 100%;
+	margin: 0px;
+	font-size: inherit;
+	color: #00274C;
+}
+img {
+	vertical-align: middle;
+	user-select: none;
+}
+li {
+	padding: 2px;
+}
+a:link, a:visited, a:active, a:hover {
+	color: #0645AD;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a.button {
+	border: 1px solid #0645AD;
+	color: #0645AD;
+	background-color: transparent;
+	border-radius: 4px;
+	padding: 0px 5px;
+	margin: 0px 1px;
+	font-size: 12pt;
+	text-decoration: none;
+	transition: all .5s;
+	user-select: none; 
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+}
+a.button:hover {
+	color: white;
+	background-color: #0645AD;
+}
+#profile{
+	display: inline-block;
+	vertical-align: middle; 
+}
+#profile img{
+    width: 205px;
+	border-radius:50%;
+}
+#contact_section {
+	display: inline-block;
+	width: 100%;
+	padding-left: 30px;
+	padding-top: 3px;
+	vertical-align: middle; 
+}
+#publications {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.name {
+	/* font-family: 'Roboto Slab', sans-serif; */
+	font-size: 26pt;
+	font-weight: bold;
+	margin-top: 6px;
+	margin-bottom: 10px;	
+}
+.contact {
+	margin-top: 4px;
+	margin-bottom: 4px;	
+}
+.contact_icon {
+	padding-right: 5px;
+	height: 1em;
+	vertical-align: middle;
+}
+article {
+	padding: 10px;
+	margin: 20px 0px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.02);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05), -4px 4px 4px rgba(0, 0, 0, 0.05);
+}
+article:hover {
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.05), -8px 8px 8px rgba(0, 0, 0, 0.05);
+}
+article h3 {
+	font-size: inherit;
+	line-height: 140%;
+	display: inline;
+}
+article img {
+	float: left;
+	margin-right: 20px;
+	width: 171px;
+	height: 114px;
+	border-radius: 10px;
+}
+.lead_word {
+	color: gray;
+}
+@media (max-width:829px) {
+	#school_logo {
+		display: none;
+	}
+}
